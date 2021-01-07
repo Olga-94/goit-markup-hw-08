@@ -1,0 +1,173 @@
+ .footer {
+    background: #2f303a;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 10px;
+   
+    &-container {
+    display: flex;
+    align-items: baseline; 
+  }
+    & .address {
+    margin-top: 20px;
+    width: 231px;
+  }
+    &-address-street {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 9px;
+  }
+  
+  &-button {
+        font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background: $accent-color;
+    min-width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 29px;
+    border: 1px solid transparent;
+   margin-left: 12px; 
+  }
+  
+  &-list-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+&-list-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+  &-address-container {
+    margin-right: 70px;
+  }
+
+  &-social-item:not(:last-child) {
+    margin-right: 10px;}
+
+  &-social-box {
+      margin-right: 93px;
+    }
+  }
+ 
+  
+  
+  
+  
+  .footer-social-list { 
+    display: flex; 
+    &-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      fill: #ffffff;
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+     &:hover,
+     &:focus {
+    background-color: $accent-color; 
+  }
+    }
+    &-icon {
+    width: 20px;
+    height: 20px;
+  } 
+  }
+  
+  .follow-us {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  
+      .form-position {
+        display: flex;
+      }
+      .form-email-field {
+        font-weight: 400;
+        width: 358px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 15px 16px;
+        font-family: $main-font;
+      font-style: normal;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 16px;
+      line-height: 1.250;
+      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+  
+  .icon-send {
+    margin-left: 10px;
+  }
+
+  /*.footer {
+    background: #2f303a;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 10px;
+  }
+  .footer-container {
+    display: flex;
+    align-items: baseline; 
+  }
+  .footer .address {
+    margin-top: 20px;
+    width: 231px;
+  }
+  .footer-address-street {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 9px;
+  }
+   .footer-button {
+        font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background: $accent-color;
+    min-width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 29px;
+    border: 1px solid transparent;
+   margin-left: 12px; 
+  }
+  */
