@@ -1,0 +1,32 @@
+.menu-button {
+    display: inline-flex;
+    padding: 0;
+    margin-left: auto;
+    border: none;
+    background-color:transparent;
+  
+    & .menu-button-close {
+        display: none;
+    }
+    @media screen and (max-width:767px) {
+      .menu-button.is-open .menu-button-close {
+        display: block; 
+      } 
+    }
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+  
+    &.is-open .menu-button-open {
+      display: none;
+    }
+  
+  }
+  .menu-button-open:hover,
+  .menu-button-open:focus,
+  .menu-button-close:hover,
+  .menu-button-close:focus {
+    fill: $accent-color;
+  }
+  
+/*==================MODAL==================*/

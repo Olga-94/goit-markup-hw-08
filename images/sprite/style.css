@@ -15,6 +15,14 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-menuopen {
+  width: 1.5em;
+}
+
+.icon-policy {
+  width: 1.2998046875em;
+}
+
 .icon-client1 {
   width: 0.900390625em;
 }

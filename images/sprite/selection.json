@@ -4,6 +4,110 @@
     {
       "icon": {
         "paths": [
+          "M1006.037 101.322l-101.322-101.322-401.697 401.696-401.695-401.696-101.322 101.322 401.696 401.695-401.696 401.697 101.322 101.322 401.695-401.699 401.697 401.699 101.322-101.322-401.699-401.697 401.699-401.695z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "menuclose"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 34,
+        "id": 1,
+        "name": "menuclose",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M0 170.667v-170.667h1536v170.667h-1536zM0 597.333h1536v-170.666h-1536v170.666zM0 1024h1536v-170.669h-1536v170.669z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(33, 150, 243)"
+          }
+        ],
+        "width": 1536,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "menuopen"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(33, 150, 243)"
+        }
+      ],
+      "properties": {
+        "order": 33,
+        "id": 0,
+        "name": "menuopen",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M200.4 486.57l-7.043-6.719-105.819 100.237 372.826 355.664 783.274-747.217-105.124-100.284-678.147 646.318-259.967-247.999z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)",
+            "stroke": "rgb(255, 255, 255)",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 20.480000000000004
+          }
+        ],
+        "width": 1331,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "policy"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)",
+          "stroke": "rgb(255, 255, 255)",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 20.480000000000004
+        }
+      ],
+      "properties": {
+        "order": 32,
+        "id": 0,
+        "name": "policy",
+        "prevSize": 32
+      },
+      "setIdx": 2,
+      "setId": 7,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M1024 0l-1024 576 327.251 121.203 504.749-473.202-383.927 517.955 0.311 0.115-0.384-0.115v282.048l183.522-214.106 232.482 86.106 159.996-896.004z"
         ],
         "attrs": [
@@ -29,7 +133,7 @@
         "name": "icon-send",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 3,
       "setId": 6,
       "iconIdx": 0
     },
@@ -57,7 +161,7 @@
         "name": "form-email",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 4,
       "setId": 5,
       "iconIdx": 0
     },
@@ -89,7 +193,7 @@
         "name": "form-person",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 4,
       "setId": 5,
       "iconIdx": 1
     },
@@ -117,7 +221,7 @@
         "name": "form-phone",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 4,
       "setId": 5,
       "iconIdx": 2
     },
@@ -145,7 +249,7 @@
         "name": "close",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 4,
       "setId": 5,
       "iconIdx": 3
     },
@@ -204,7 +308,7 @@
         "name": "instagram",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 0
     },
@@ -253,7 +357,7 @@
         "name": "antenna",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 1
     },
@@ -492,7 +596,7 @@
         "name": "astronaut",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 2
     },
@@ -552,7 +656,7 @@
         "name": "client1",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 3
     },
@@ -782,7 +886,7 @@
         "name": "client2",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 4
     },
@@ -942,7 +1046,7 @@
         "name": "client3",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 5
     },
@@ -1012,7 +1116,7 @@
         "name": "client4",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 6
     },
@@ -1142,7 +1246,7 @@
         "name": "client5",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 7
     },
@@ -1352,7 +1456,7 @@
         "name": "client6",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 8
     },
@@ -1421,7 +1525,7 @@
         "name": "clock",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 9
     },
@@ -1500,7 +1604,7 @@
         "name": "diagram",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 10
     },
@@ -1540,7 +1644,7 @@
         "name": "envelope",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 11
     },
@@ -1579,7 +1683,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 12
     },
@@ -1638,7 +1742,7 @@
         "name": "linkedin",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 13
     },
@@ -1688,7 +1792,7 @@
         "name": "smartphone",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 14
     },
@@ -1727,7 +1831,7 @@
         "name": "twitter",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 7,
       "setId": 2,
       "iconIdx": 15
     }

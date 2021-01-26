@@ -1,11 +1,15 @@
 .features-list,
 .our-work-list,
 .our-team-list {
-    display: flex;
-    
+   @media screen and (min-width:768px) {
+     display: flex;
+     flex-wrap: wrap;
+   }
+   @media screen and (min-width:768px) {
     &-item:not(:last-child) {
        margin-right: 30px; 
     }
+  }     
 }
 
   
@@ -36,6 +40,7 @@ width: 100%;
 .features { 
   padding-top: 94px;
   padding-bottom: 94px;
+
   &-description {
   font-weight: 400;
   font-size: 14px;
@@ -46,7 +51,8 @@ width: 100%;
   &-icon {
   width: 70px;
   height: 70px; 
-     &-box {
+
+  &-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +70,8 @@ width: 100%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121; 
- .features-list &{
+
+ .features-list & {
   margin-bottom: 10px;
   margin-top: 0px;
   max-width: 270px;

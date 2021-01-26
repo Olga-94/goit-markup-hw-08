@@ -1,10 +1,4 @@
-.logo-studio-header {
-    color: #000000;
-  }
-  .logo-studio-footer {
-    color: #ffffff;
-  }
-  .logoweb,
+
   .logo {
     font-family: $secondary-font;
     font-weight: 700;
@@ -13,4 +7,34 @@
     letter-spacing: 0.03em;
     color: $accent-color;
     text-decoration: none;
+  
+
+    @media screen and (max-width: 1199px) {
+      font-size: 24px;
+      line-height: 1.16;
+    }
+  
+    @media screen and(min-width: 1200px) {
+      font-size: 26px;
+      line-height: 1.19;
+    }
+
+    &-studio-header {
+      color: #000000;
+  
+      @media screen and (min-width: 768px) {
+        margin-right: 88px;
+      }
+  
+      @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+      }
+    }
+    
+    &-studio-footer {
+      color: #ffffff;
+      margin-bottom: 20px ;
+    }
+  
   }
+

@@ -2,31 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Webstudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css"/>
 
 </head>
    <body>
+    <!--Насти ----<header class="header">
+        <div class="container">
+
+            <a class="logo" href="/">
+                <span class="logo-blue">Web</span><span class="logo-black">Studio</span>
+            </a>
+
+            <button type="button" class="menu-btn" data-menu-button>
+                <svg class="menu-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+                    <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+                    <use class="icon-cross" href="./images/sprite.svg#close"></use>
+                </svg>
+            </button>
+
+            <div class="menu-container" data-menu>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a class="nav-list-item-link current" href="">Студия</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-item-link" href="./portfolio/portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-item-link" href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
     
-      <header class="header">  <!--header container-->           
+                <address class="address">
+                    <ul class="address-list">
+                        <li class="address-list-item">
+                            <a class="address-mail" href="mailto:info@example.com">
+                                    <svg class="address-mail-icon" width="16" height="12">
+                                        <use href="./images/sprite.svg#envelope"></use>
+                                    </svg>
+                                info@devstudio.com
+                            </a>
+                        </li>
+                        <li class="address-list-item">
+                            <a class="address-tel" href="tel:380991111111">
+                                    <svg class="address-tel-icon" width="10" height="16">
+                                        <use href="./images/sprite.svg#smartphone"></use>
+                                    </svg>
+                                +380961111111
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+
+            
+
+        </div>
+    </header> -->
+    <header class="header">  <!--header container-->    
             <!--Main menu-->
             <div class="container">
-               <nav class="site-nav">
+
                   <a class="logo" href="index.html"><span class="logoweb">Web</span><span class="logo-studio-header">Studio</span></a>    
-                <ul class="nav-list list"> 
+                  <button class="menu-button" data-menu-button type="button">
+                    <svg width="40" height="40">  
+                      <use class="menu-button-open" href="./images/sprite.svg#icon-menuopen"></use>
+                      <use class="menu-button-close" href="./images/sprite.svg#icon-menuclose"></use> 
+                    </svg>
+                  </button>
+                  
+              <div class="menu-container" data-menu>
+                <nav class="site-nav">
+                  <ul class="nav-list list"> 
                  <li class="nav-list-item"><a class="nav-list-link current" href="index.html">Студия</a></li>
                  <li class="nav-list-item"><a class="nav-list-link" href="portfolio.html">Портфолио</a></li>
                  <li class="nav-list-item"><a class="nav-list-link" href="#">Контакты</a></li>
                 </ul>
                 </nav>             
-                    <address class="address">  <!--Contacts container-->
+                 <address class="address">  <!--Contacts container-->
                          
-                         <ul class="address-links list">
+                        <ul class="address-links list">
                         <li class="header-list-item">
                           
                         <a class="header-address-link" href="mailto:info@devstudio.com">
@@ -43,22 +107,26 @@
                         </svg>
                         +38 096 111 11 11</a>
                     </li> 
-                      </ul>
+                         </ul>
+                        
                     </address>
+               </div>
             </div>
-      </header>
-            <main>
-         <section class="hero"> <!--HERO-->    
-          <div class="hero-container">
+          </header>
+           
+      
+     <!-- <main>
+        <section class="hero"> !--HERO--
+          <div class="hero-container container">
              <h1 class="hero-title">эффективные решения </br>для вашего бизнеса</h1>
-            <div class="button"> <!--button-->
+            <div class="button"> !--button--
              <button class="hero-button" data-modal-open>Заказать услугу</button>
             </div>
           </div>                
          </section>
 
             
-             <section class="features"> <!--characteristics-->
+          <section class="features"> !--characteristics--
                       <div class="container">
                         <h2 hidden>особенности</h2>           
                           <ul class="features-list list">
@@ -98,9 +166,10 @@
                             <p class="features-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
                           </ul>
                       </div>
-             </section>                  
-                     <section class="our-work"> <!--our work-->   
-              <div class="container">
+                      
+             </section>                 
+                    <section class="our-work"> !--our work--
+             <div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
                         <ul class="our-work-list list">
                             <li class="our-work-list-item">
@@ -118,12 +187,12 @@
                       </div>           
              </section>
 
-                    <section class="our-team"> <!--our team-->                       
+                    <section class="our-team"> !--our team--                       
                           <div class="container">
                              <h2 class="title">Наша команда</h2>
                           <ul class="our-team-list list">
-                            <li class="our-team-list-item"> <!--desiner-->
-                               <img class="our-team-images" src="images/photo4.jpg" alt="desiner" width="270" height="260"/>
+                            <li class="our-team-list-item"> !--desiner--
+                           <img class="our-team-images" src="images/photo4.jpg" alt="desiner" width="270" height="260"/>
                                <div class="decription">
                                  <h3 class="our-team-name">Игорь Демьяненко</h3>          
                                  <p class="our-team-position">Product Designer</p>
@@ -163,7 +232,7 @@
                                </div>               
                             </li>            
                          
-                            <li class="our-team-list-item"> <!--developer-->                               
+                            <li class="our-team-list-item"> !--developer--                              
                               <img class="our-team-images" src="./images/photo5.jpg" alt="developer" width="270" height="260"/>
                               <div class="decription">
                                 <h3 class="our-team-name">Ольга Репина</h3>
@@ -205,7 +274,7 @@
                             </li>        
                                 
 
-                            <li class="our-team-list-item"> <!--marketing-->                                
+                            <li class="our-team-list-item"> !--marketing--                                
                               <img class="our-team-images" src="./images/photo6.jpg" alt="marketing" width="270" height="260" />
                               <div class="decription">
                                 <h4 class="our-team-name">Николай Тарасов</h4>              
@@ -246,7 +315,7 @@
                             </div>
                             </li>
 
-                            <li class="our-team-list-item"> <!--ui desiner-->                               
+                            <li class="our-team-list-item"> !--ui desiner--                               
                               <img class="our-team-images" src="./images/photo7.jpg" alt="uidesiner" width="270" height="260"/>
                             <div class="decription">
                               <h3 class="our-team-name">Михаил Ермаков</h3>
@@ -290,9 +359,9 @@
                           </ul>
                         </section>
                         </div>
-                         <!-- ========== CLIENTS ========== -->
+                         !-- ========== CLIENTS ========== --
 
-      <section class="clients">
+    <section class="clients">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -342,10 +411,10 @@
         </div>
       </section>
 
-      <!-- ========== END CLIENTS ========== -->
-                 </main> 
+      !-- ========== END CLIENTS ========== -->
+               <!-- </main> -->
 
-                 <footer class="footer">
+                !-- <footer class="footer">
                   <div class="footer-container container">
                     <div class="footer-address-container">
                     <a class="logo" href="/main"><span class="logoweb">Web</span><span class="logo-studio-footer">Studio</span></a>
@@ -396,24 +465,21 @@
                       <b class="follow-us">Подпишитесь на рассылку</b>
                       <form class="footer-form">
                         <div class="form-position">
-                          <input class="form-email-field" type="mail" name="mail" placeholder="E-mail">
+                          
+                          <input class="form-email-field footer-form-input" type="mail" name="mail" placeholder="E-mail">
                           <button class="footer-button" type="submit">Подписаться
-                            <div class="footer-btn-txt">
-                              <svg class="icon-send" width="24" height="24" >
+                              <svg class="icon-send footer-btn-txt" width="24" height="24" >
                               <use href="./images/sprite.svg#icon-icon-send"></use>
                               </svg>
-                            </div>
                           </button>
                         </div>
-                        
-
                       </form>
                     </div>
                   </div> 
                   </footer>
                   
 
-                  <div class="backdrop is-hidden" data-modal>
+                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal-window">
                       <button type="button" class="close-btn" data-modal-close>
                         <svg class="close">
@@ -462,8 +528,24 @@
                       
                       </form>
                     </div>
-                  </div>
+                  </div>-->
         
                   <script src="./js/modal.js"></script>
+                  <script src="./js/menu.js"></script>
+                  <script>
+                    (() => {
+                      document
+                        .querySelector('.js-speaker-form')
+                        .addEventListener('submit', e => {
+                          e.preventDefault();
+              
+                          new FormData(e.currentTarget).forEach((value, name) =>
+                            console.log(`${name}: ${value}`),
+                          );
+                        });
+                    })();
+                  </script>
+                  
+                  
    </body>
     </html>
