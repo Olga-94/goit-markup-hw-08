@@ -109,8 +109,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    margin-bottom: 50px;
+  }
 }
 
 .logo {
@@ -931,6 +937,7 @@ body {
 }
 
 .features-list-item-name {
+  display: block;
   text-align: center;
   font-weight: 700;
   font-size: 14px;
@@ -990,44 +997,7 @@ body {
   border-radius: 4px;
 }
 
-/*.features-list,
-.our-work-list,
-.our-team-list {
-   @media screen and (min-width:768px) {
-     display: flex;
-     flex-wrap: wrap;
-   }
-   @media screen and (min-width:768px) {
-    &-item:not(:last-child) {
-       margin-right: 30px; 
-    }
-  }     
-}
-
-  
-.our-work-list-item {
-  position: relative;
-}
-.work-decription {
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.143;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-color: rgba(255, 255, 255, 1);
-background-color: rgba(47, 48, 58, 0.8);
-padding: 27px 82px;
-position: absolute;
-width: 100%;
-  bottom: 0;
-  
-}
-
-
+/*
 
 .features { 
   padding-top: 94px;
@@ -1100,8 +1070,55 @@ width: 100%;
 }
     */
 .our-work {
-  text-align: center;
+  display: none;
   padding-bottom: 94px;
+}
+
+@media screen and (min-width: 1200px) {
+  .our-work {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-work-list,
+  .our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-work-list-item:not(:last-child),
+  .our-team-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.our-work-imges {
+  width: 100%;
+}
+
+.our-work-list-item {
+  position: relative;
+}
+
+.work-decription {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  color: white;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 82px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .our-team {

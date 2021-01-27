@@ -109,8 +109,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    margin-bottom: 50px;
+  }
 }
 
 .logo {

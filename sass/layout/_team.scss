@@ -1,7 +1,52 @@
 .our-work {
-  text-align: center;
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
   padding-bottom: 94px;
 }
+.our-work-list,
+.our-team-list {
+   @media screen and (min-width:768px) {
+     display: flex;
+     flex-wrap: wrap;
+   }
+   @media screen and (min-width:768px) {
+    &-item:not(:last-child) {
+       margin-right: 30px; 
+    }
+  }     
+}
+
+.our-work-imges {
+  width: 100%;
+
+}
+  
+.our-work-list-item {
+  position: relative;
+}
+.work-decription {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+color: rgba(255, 255, 255, 1);
+background-color: rgba(47, 48, 58, 0.8);
+padding: 27px 82px;
+position: absolute;
+width: 100%;
+ bottom: 0;
+  
+}
+
+
 
 .our-team {
   background-color: #f5f4fa;
