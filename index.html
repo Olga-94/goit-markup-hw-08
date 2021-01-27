@@ -71,7 +71,7 @@
          </section>-->
 
             
-          <section class="features"> <!--characteristics-->
+         <!-- <section class="features"> !--characteristics--
                       <div class="container">
                         <h2 hidden>особенности</h2>           
                           <ul class="features-list list">
@@ -112,8 +112,8 @@
                           </ul>
                       </div>
                       
-             </section>       -->          
-                    <section class="our-work"> <!--our work-->
+             </section>                
+                    <section class="our-work"> !--our work--
              <div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
                         <ul class="our-work-list list">
@@ -137,15 +137,38 @@
                               </li>
                         </ul>
                       </div>           
-             </section>
+             </section> -->
 
-                    <section class="our-team"> !--our team--                       
+                    <section class="our-team"> <!--our team-->                  
                           <div class="container">
                              <h2 class="title">Наша команда</h2>
                           <ul class="our-team-list list">
-                            <li class="our-team-list-item"> !--desiner--
-                           <img class="our-team-images" src="images/photo4.jpg" alt="desiner" width="270" height="260"/>
-                               <div class="decription">
+                            <li class="our-team-list-item"> <!--desiner-->
+                           <!--<img class="our-team-images" src="images/photo4.jpg" alt="desiner" width="270" height="260"/>-->
+                              
+                           <picture>
+                            <source
+                              media="(min-width: 768px) and (max-width: 1199px)"
+                              srcset="
+                                ./images/hero/team/person1-tablet.jpg,
+                                ./images/hero/team/person1-tablet@2x.jpg 2x
+                              "
+                            />
+                            <source
+                              media="(min-width: 1200px)"
+                              srcset="
+                                ./images/hero/team/person1-desktop.jpg,
+                                ./images/hero/team/person1-desktop@2x.jpg 2x
+                              "
+                            />
+                            <img
+                              class="team__img"
+                              src="images/hero/team/person1.jpg"
+                              alt="Игорь Демьяненко"
+                              srcset="images/hero/team/person1@2x.jpg 2x"
+                            />
+                          </picture>
+                           <div class="decription">
                                  <h3 class="our-team-name">Игорь Демьяненко</h3>          
                                  <p class="our-team-position">Product Designer</p>
                                  <div class="social-icons">
@@ -184,8 +207,29 @@
                                </div>               
                             </li>            
                          
-                            <li class="our-team-list-item"> !--developer--                              
-                              <img class="our-team-images" src="./images/photo5.jpg" alt="developer" width="270" height="260"/>
+                            <li class="our-team-list-item"> <!--developer-->                          
+                              <picture>
+                                <source
+                                  media="(min-width: 768px) and (max-width: 1199px)"
+                                  srcset="
+                                    ./images/hero/team/person2-tablet.jpg,
+                                    ./images/heroteam/person2-tablet@2x.jpg 2x
+                                  "
+                                />
+                                <source
+                                  media="(min-width: 1200px)"
+                                  srcset="
+                                    ./images/hero/team/person2-desktop.jpg,
+                                    ./images/hero/team/person2-desktop@2x.jpg 2x
+                                  "
+                                />
+                                <img
+                                  class="team__img"
+                                  src="./images/hero/team/person2.jpg"
+                                  srcset="./images/hero/team/person2@2x.jpg 2x"
+                                  alt="Ольга Репина"
+                                />
+                              </picture>
                               <div class="decription">
                                 <h3 class="our-team-name">Ольга Репина</h3>
                                 <p class="our-team-position">Fronted Developer</p>
@@ -226,8 +270,29 @@
                             </li>        
                                 
 
-                            <li class="our-team-list-item"> !--marketing--                                
-                              <img class="our-team-images" src="./images/photo6.jpg" alt="marketing" width="270" height="260" />
+                            <li class="our-team-list-item"> <!--marketing-->                          
+                              <picture>
+                                <source
+                                  media="(min-width: 768px) and (max-width: 1199px)"
+                                  srcset="
+                                    ./images/hero/team/person3-tablet.jpg,
+                                    ./images/hero/team/person3-tablet@2x.jpg 2x
+                                  "
+                                />
+                                <source
+                                  media="(min-width: 1200px)"
+                                  srcset="
+                                    ./images/hero/team/person3-desktop.jpg,
+                                    ./images/hero/team/person3-desktop@2x.jpg 2x
+                                  "
+                                />
+                                <img
+                                  class="team__img"
+                                  src="images/hero/team/person3.jpg"
+                                  srcset="./images/hero/team/person3@2x.jpg 2x"
+                                  alt="Николай Тарасов"
+                                />
+                              </picture>
                               <div class="decription">
                                 <h4 class="our-team-name">Николай Тарасов</h4>              
                               <p class="our-team-position">Marketing</p>                       
@@ -267,8 +332,29 @@
                             </div>
                             </li>
 
-                            <li class="our-team-list-item"> !--ui desiner--                               
-                              <img class="our-team-images" src="./images/photo7.jpg" alt="uidesiner" width="270" height="260"/>
+                            <li class="our-team-list-item"> <!--ui desiner-->                               
+                              <picture>
+                                <source
+                                  media="(min-width: 768px) and (max-width: 1199px)"
+                                  srcset="
+                                    ./images/hero/team/person4-tablet.jpg,
+                                    ./images/hero/team/person4-tablet@2x.jpg 2x
+                                  "
+                                />
+                                <source
+                                  media="(min-width: 1200px)"
+                                  srcset="
+                                    ./images/hero/team/person4-desktop.jpg,
+                                    ./images/hero/team/person4-desktop@2x.jpg 2x
+                                  "
+                                />
+                                <img
+                                  class="team__img"
+                                  src="images/hero/team/person4.jpg"
+                                  srcset="./images/hero/team/person4@2x.jpg 2x"
+                                  alt="Михаил Ермаков"
+                                />
+                              </picture>
                             <div class="decription">
                               <h3 class="our-team-name">Михаил Ермаков</h3>
                               <p class="our-team-position">UI Designer</p>       
@@ -311,7 +397,7 @@
                           </ul>
                         </section>
                         </div>
-                         !-- ========== CLIENTS ========== --
+                         <!-- ========== CLIENTS ========== -->
 
     <section class="clients">
         <div class="container">
