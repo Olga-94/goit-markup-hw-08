@@ -1267,7 +1267,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .clients-list {
+    width: calc(100% / 2 - var(--card-set-gap));
+  }
 }
 
 @media screen and (max-width: 1600px) {
@@ -1528,8 +1534,15 @@ body {
   outline: none;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-form-input {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .footer-form-input {
+    display: block;
     margin-bottom: 20px;
   }
 }
@@ -1538,12 +1551,6 @@ body {
   .footer-form-input {
     margin-right: 12px;
     width: 358px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .footer-form-input {
-    display: block;
   }
 }
 

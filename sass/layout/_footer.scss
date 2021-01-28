@@ -156,17 +156,17 @@
   background-color: transparent;
   outline: none;
 
+  @media screen and (max-width:767px) {
+    max-width: 100%;
+}
   @media screen and (max-width:1199px) {
+    display:block;
       margin-bottom: 20px;
   }
 
   @media screen and (min-width:1200px) {
       margin-right: 12px;
       width: 358px;
-  }
-
-  @media screen and (max-width:1199px) {
-      display:block;
   }
 }
 

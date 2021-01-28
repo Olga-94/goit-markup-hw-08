@@ -928,8 +928,15 @@ body {
   outline: none;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-form-input {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .footer-form-input {
+    display: block;
     margin-bottom: 20px;
   }
 }
@@ -938,12 +945,6 @@ body {
   .footer-form-input {
     margin-right: 12px;
     width: 358px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .footer-form-input {
-    display: block;
   }
 }
 
