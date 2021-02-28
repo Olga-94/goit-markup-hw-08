@@ -9,6 +9,11 @@
   }
 }
 
+.footer-list-item:not(:last-child) {
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
 .footer-container,
 .footer-address {
   display: block;
@@ -31,6 +36,7 @@
   color: #ffffff;
   text-decoration: none;
   margin-top: 20px;
+  margin-bottom: 9px;
 
   /* margin-bottom: 9px;*/
 }
