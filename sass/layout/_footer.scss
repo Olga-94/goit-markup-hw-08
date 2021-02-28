@@ -1,9 +1,12 @@
 .footer {
   display: block;
-  background-color: #2F303A;
+  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  text-align: center;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .footer-container,
@@ -20,6 +23,7 @@
 
 .footer-address-street {
   display: block;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -27,28 +31,29 @@
   color: #ffffff;
   text-decoration: none;
   margin-top: 20px;
- /* margin-bottom: 9px;*/
+
+  /* margin-bottom: 9px;*/
 }
 
 .footer-list-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color:  rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:focus,
-    &:hover {
-        color: $accent-color;
-    }
+  &:focus,
+  &:hover {
+    color: $accent-color;
+  }
 }
 
-.footer-social-list { 
-  display: flex; 
+.footer-social-list {
+  display: flex;
 
   &-link {
     display: flex;
@@ -60,16 +65,16 @@
     fill: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-   &:hover,
-   &:focus {
-  background-color: $accent-color; 
-}
+
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+    }
   }
   &-icon {
-  width: 20px;
-  height: 20px;
-} 
+    width: 20px;
+    height: 20px;
+  }
 }
 .footer-social-item:not(:last-child) {
   margin-right: 10px;
@@ -78,23 +83,23 @@
 .form {
   flex-wrap: wrap;
 
- & {
-      @media screen and (max-width:1199px) {
-          margin-top: 60px;
-      }
+  & {
+    @media screen and (max-width: 1199px) {
+      margin-top: 60px;
+    }
   }
 }
 
 .footer-social-box,
 .follow-us {
-    font-family: $main-font;
-    font-style: normal;
-    font-weight: 700;
-    font-size:14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    text-transform: uppercase;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .footer-social-list {
@@ -103,8 +108,8 @@
   list-style: none;
   /*padding-top: 20px;*/
 
-  @media screen and (min-width:1200px) {
-      justify-content: space-between;
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
   }
 }
 
@@ -114,12 +119,12 @@
 
 .footer-address-container,
 .footer-address {
-    display: block;
+  display: block;
 }
 
 .footer-social-box {
-  @media screen and (max-width:767px) {
-      margin-top: 60px;
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
   }
 }
 
@@ -133,40 +138,39 @@
 
 .form-email-field,
 .footer-button {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .form-email-field {
-  @media screen and (min-width:767px) {
-      display:block;
+  @media screen and (min-width: 767px) {
+    display: block;
   }
 }
 
 .footer-form-input {
-    
   padding-left: 16px;
   width: 450px;
   height: 50px;
-  color:#ffffff;
+  color: #ffffff;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
   outline: none;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     max-width: 100%;
-}
-  @media screen and (max-width:1199px) {
-    display:block;
-      margin-bottom: 20px;
+  }
+  @media screen and (max-width: 1199px) {
+    display: block;
+    margin-bottom: 20px;
   }
 
-  @media screen and (min-width:1200px) {
-      margin-right: 12px;
-      width: 358px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 12px;
+    width: 358px;
   }
 }
 
@@ -192,20 +196,20 @@
 
 .footer-button,
 .icon-send {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 
 .icon-send {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .form-position {
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 }
 
- /*сегодня добавили
+/*сегодня добавили
     & .address {
     margin-top: 20px;
     width: 231px;
@@ -294,7 +298,7 @@
     margin-left: 10px;
   }
 сегодня добавили*/
-  /*.footer {
+/*.footer {
     background: #2f303a;
     padding-bottom: 60px;
     padding-top: 60px;
