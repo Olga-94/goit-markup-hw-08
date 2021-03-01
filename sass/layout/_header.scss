@@ -7,9 +7,9 @@
   @media screen and (max-width: 767px) {
     height: 60px;
   }
-  // @media screen and (min-width: 768px) {
-  //   height: 80px;
-  // }
+  @media screen and (min-width: 768px) {
+    height: 80px;
+  }
 
   & .container {
     display: flex;
@@ -86,7 +86,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.172;
-  letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
   transition-duration: 250ms;
@@ -203,6 +202,7 @@
     align-items: center;
     // display: flex;
   }
+
   @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.14;

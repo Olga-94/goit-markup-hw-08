@@ -634,6 +634,12 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+    height: 80px;
+  }
+}
+
 .header .container {
   display: flex;
   height: 100%;
@@ -712,7 +718,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.172;
-  letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
   transition-duration: 250ms;
