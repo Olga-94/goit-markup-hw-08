@@ -29,9 +29,9 @@
     }
 
     @media screen and (min-width: 1200px) {
-      text-align: start;
+      // text-align: baseline;
       justify-content: space-between;
-      align-items: center;
+      align-items: baseline;
     }
   }
 }
