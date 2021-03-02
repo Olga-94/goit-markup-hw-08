@@ -3,8 +3,8 @@
 
   @media screen and (min-width: 1200px) {
     display: block;
+    padding-bottom: 94px;
   }
-  // padding-bottom: 94px;
 }
 .our-work-list {
   @media screen and (min-width: 768px) {
@@ -43,11 +43,15 @@
   bottom: 0;
 }
 .our-team-list {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 .our-team-list-item {
